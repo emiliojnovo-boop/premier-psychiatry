@@ -13,7 +13,7 @@ export default function Insurance() {
             Insurance Accepted
            </h2>
            <p className="font-lato text-[16px] md:text-[18px] text-[#4A5568] max-w-2xl mx-auto leading-relaxed">
-            I accept several insurances through Headway in-network. My services are covered by:
+            I accept the following insurance plans in-network. To verify your specific coverage, call (561) 834-5705 or email aylin@premierpsychiatrywellington.com.
            </p>
         </div>
         

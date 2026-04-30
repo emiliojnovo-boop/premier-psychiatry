@@ -34,7 +34,7 @@ export default function FAQ() {
     },
     {
       q: "How do I check if my insurance is accepted?",
-      a: "Click the 'Check Insurance & Book' button on this page. Headway will verify your coverage instantly."
+      a: "Call (561) 834-5705 or email aylin@premierpsychiatrywellington.com with your insurance carrier and member ID. I'll verify your coverage before your first appointment so there are no surprises."
     }
   ];
 
