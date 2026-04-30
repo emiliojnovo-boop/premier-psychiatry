@@ -7,12 +7,10 @@ export default function SpanishCTA() {
           Atención psiquiátrica en su propio idioma. Hablar de lo que sentimos es más sencillo cuando no hay barreras lingüísticas.
         </p>
         <a 
-          href="https://care.headway.co/providers/aylin-sanchez-pmhnp-bc"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="tel:5618345705"
           className="inline-block mt-6 bg-[#F2B8A0] text-[#25323D] px-8 py-3 rounded-full font-medium hover:bg-[#e8a78e] transition-colors"
         >
-          Agenda tu cita
+          Llama para agendar tu cita
         </a>
       </div>
     </section>

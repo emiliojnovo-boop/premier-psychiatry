@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="lg:col-span-5 flex flex-col gap-6 text-sm font-lato text-white/60">
             <div className="flex flex-col gap-1">
               <p className="leading-relaxed">
-                Under the federal No Surprises Act, you have the right to receive a Good Faith Estimate of expected charges for self-pay or uninsured care. Contact (561) 834-5705 or <a href="mailto:aylin@premierpsychiatrywellington.com" className="underline hover:text-sage transition-colors">aylin@premierpsychiatrywellington.com</a> to request one. More info: <a href="http://cms.gov/nosurprises" target="_blank" rel="noopener noreferrer" className="underline hover:text-sage transition-colors">cms.gov/nosurprises</a>
+                Under the federal No Surprises Act, you have the right to receive a Good Faith Estimate of expected charges for self-pay or uninsured care. Contact (561) 834-5705 or <a href="mailto:aylin@premierpsychiatrywellington.com" className="underline hover:text-sage transition-colors">aylin@premierpsychiatrywellington.com</a> to request one. More info: <a href="https://www.cms.gov/nosurprises" target="_blank" rel="noopener noreferrer" className="underline hover:text-sage transition-colors">cms.gov/nosurprises</a>
               </p>
             </div>
             
@@ -49,9 +49,6 @@ export default function Footer() {
           <div className="lg:col-span-3 hidden lg:block"></div>
           <div className="lg:col-span-5 flex flex-col gap-4">
             <h4 className="font-lato font-bold uppercase tracking-wider text-sm text-sage">Directories</h4>
-            <a href="https://care.headway.co/providers/aylin-sanchez-pmhnp-bc" target="_blank" rel="noopener noreferrer" className="font-lato text-[16px] md:text-[18px] text-white hover:underline focus:outline-none focus:ring-2 focus:ring-sage rounded w-max min-h-[44px] flex items-center">
-              Headway Profile
-            </a>
             <a href="https://www.zocdoc.com/doctor/aylin-trujillo-aprn-rn-664547" target="_blank" rel="noopener noreferrer" className="font-lato text-[16px] md:text-[18px] text-white hover:underline focus:outline-none focus:ring-2 focus:ring-sage rounded w-max min-h-[44px] flex items-center">
               ZocDoc Profile
             </a>
