@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col gap-6 order-2 md:order-1 animate-fade-in-up">
-            <h1 className="font-playfair text-[32px] md:text-[40px] font-bold text-charcoal leading-tight" style={{ textShadow: "2px 2px 0 #1B2A4A" }}>
+            <h1 className="font-playfair text-[32px] md:text-[40px] font-extrabold text-charcoal leading-tight">
               Compassionate Psychiatric Care Across the Lifespan in Wellington, Florida
             </h1>
             <div className="flex flex-col gap-2">
@@ -17,18 +17,16 @@ export default function Hero() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 mt-2 delay-300">
               <a 
-                href="https://care.headway.co/providers/aylin-sanchez-pmhnp-bc"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="tel:5618345705"
                 className="bg-apricot text-charcoal text-center px-6 py-3 min-h-[44px] min-w-[44px] rounded font-bold hover:bg-teal hover:text-white transition-all transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-apricot focus:ring-offset-2 shadow-sm flex items-center justify-center"
               >
-                Check Insurance & Book
+                Call to Book — (561) 834-5705
               </a>
               <a 
-                href="tel:5618345705"
+                href="mailto:aylin@premierpsychiatrywellington.com"
                 className="border-2 border-sage text-charcoal text-center px-6 py-3 min-h-[44px] min-w-[44px] rounded font-bold hover:bg-sage transition-all transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-sage flex items-center justify-center bg-transparent mt-2 sm:mt-0 shadow-sm"
               >
-                Call for Free 15-Min Consult
+                Email for Free 15-Min Consult
               </a>
             </div>
           </div>
