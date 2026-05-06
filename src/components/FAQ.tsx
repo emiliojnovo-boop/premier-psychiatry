@@ -6,36 +6,40 @@ export default function FAQ() {
   const faqs = [
     {
       q: "Do you prescribe controlled substances?",
-      a: "Yes, when clinically appropriate. Prescribing decisions — including Schedule II controlled substances such as stimulants for ADHD — are made after a thorough clinical evaluation and ongoing monitoring. Controlled-substance prescribing follows federal DEA regulations and Florida's electronic prescribing rules. Not every patient will require or receive medication."
+      a: "Yes, when clinically appropriate. Prescribing decisions — including Schedule II controlled substances such as stimulants for ADHD — are made after a thorough clinical evaluation and ongoing monitoring. Controlled-substance prescribing follows federal DEA regulations and Florida's electronic prescribing rules. Not every patient will require or receive medication.",
     },
     {
       q: "What happens during the first appointment?",
-      a: "We'll spend about 60 minutes reviewing your mental health history, current symptoms, medications, and goals. By the end, you'll have a clear treatment plan."
+      a: "We'll spend about 60 minutes reviewing your mental health history, current symptoms, medications, and goals. By the end, you'll have a clear treatment plan.",
     },
     {
       q: "Do you offer therapy, medication, or both?",
-      a: "I offer both medication management and supportive individual therapy. We can also coordinate with your existing therapist if you have one."
+      a: "I offer both medication management and supportive individual therapy. We can also coordinate with your existing therapist if you have one.",
     },
     {
       q: "How does telehealth work?",
-      a: "All sessions are conducted via secure, HIPAA-compliant video. You'll receive a link before your appointment. All you need is a private space and a device with a camera."
+      a: "All sessions are conducted via secure, HIPAA-compliant video. You'll receive a link before your appointment. All you need is a private space and a device with a camera.",
     },
     {
       q: "What ages do you treat?",
-      a: "I see preteens (10+), adolescents, adults, and seniors (65+)."
+      a: "I see preteens (10+), adolescents, adults, and seniors (65+).",
     },
     {
       q: "Do you speak Spanish?",
-      a: "Yes! I'm fully bilingual (English/Spanish) and provide care in both languages. Se habla español."
+      a: "Yes! I'm fully bilingual (English/Spanish) and provide care in both languages. Se habla español.",
     },
     {
       q: "What if I need help between appointments?",
-      a: "I'm available for questions between sessions. For emergencies, please call 988 (Suicide & Crisis Lifeline) or go to your nearest emergency room."
+      a: "I'm available for questions between sessions. For emergencies, please call 988 (Suicide & Crisis Lifeline) or go to your nearest emergency room.",
     },
     {
       q: "How do I check if my insurance is accepted?",
-      a: "Call (561) 834-5705 or email aylin@premierpsychiatrywellington.com with your insurance carrier and member ID. I'll verify your coverage before your first appointment so there are no surprises."
-    }
+      a: "Premier Psychiatry of Wellington is a self-pay practice. Many PPO plans offer out-of-network mental-health benefits — I'm happy to provide a superbill you can submit to your insurer for partial reimbursement. Call (561) 834-5705 to discuss your options.",
+    },
+    {
+      q: "What is a Good Faith Estimate?",
+      a: "Federal law requires self-pay providers to give you a written estimate of expected charges before non-emergency care. Yours will arrive before your first session and detail the $250 evaluation fee, $125 follow-up fee, and any anticipated additional costs. See the Good Faith Estimate page for full details.",
+    },
   ];
 
   const [openIdx, setOpenIdx] = useState<number | null>(0);
@@ -70,15 +74,19 @@ export default function FAQ() {
                   className="w-full text-left px-6 py-5 hover:bg-background transition-colors flex justify-between items-center focus:outline-none focus-visible:outline-2 focus-visible:outline-sage focus-visible:outline-offset-2 min-h-[44px]"
                 >
                   <span className="font-playfair font-bold text-charcoal text-[18px] md:text-[20px] pr-4">{faq.q}</span>
-                  <span className={`text-sage transition-transform duration-200 shrink-0 ${isOpen ? 'rotate-180' : ''}`} aria-hidden="true">
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                  <span
+                    className={`text-sage transition-transform duration-200 shrink-0 ${isOpen ? "rotate-180" : ""}`}
+                    aria-hidden="true"
+                  >
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
                   </span>
                 </button>
                 <div
                   id={`faq-answer-${i}`}
                   role="region"
-                  aria-labelledby={`faq-heading-${i}`}
-                  className={`px-6 transition-all overflow-hidden ${isOpen ? 'max-h-64 py-5 border-t border-card' : 'max-h-0 py-0'}`}
+                  className={`px-6 transition-all overflow-hidden ${isOpen ? "max-h-96 py-5 border-t border-card" : "max-h-0 py-0"}`}
                 >
                   <p className="font-lato text-[16px] md:text-[18px] text-charcoal-light leading-[1.7]">{faq.a}</p>
                 </div>
