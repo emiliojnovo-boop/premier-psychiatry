@@ -30,7 +30,7 @@ export default function About() {
 
         <div className="flex justify-center mb-12">
           <div className="w-full max-w-[500px] aspect-[4/5] bg-card rounded-2xl shadow-md overflow-hidden relative">
-            <img src="/Aylin.png" alt="Aylin Sanchez, PMHNP-BC \u2014 Psychiatric Nurse Practitioner" className="w-full h-full object-cover" />
+            <img src="/Aylin.png" alt="Aylin Sanchez, PMHNP-BC — Psychiatric Nurse Practitioner" className="w-full h-full object-cover" />
           </div>
         </div>
         
@@ -46,23 +46,23 @@ export default function About() {
               I believe mental health care works best when it is collaborative. I take time to truly listen to my patients and understand what they&apos;re going through. While I provide guidance through my clinical knowledge and experience, I believe you should feel empowered and in charge of your own treatment.
             </p>
             <p>
-              Together we look at the full picture\u2014therapy, medication when appropriate, lifestyle, and the unique factors that shape your life. It brings me great fulfillment to be part of someone&apos;s healing process and to witness meaningful changes in their life.
+              Together we look at the full picture — therapy, medication when appropriate, lifestyle, and the unique factors that shape your life. It brings me great fulfillment to be part of someone&apos;s healing process and to witness meaningful changes in their life.
             </p>
             <div className="mt-8 p-6 bg-sage/5 border-l-4 border-sage rounded-r-xl italic text-charcoal">
-              <p className="font-playfair text-xl mb-2 font-bold text-sage">Atenci\u00f3n en su idioma</p>
-              <p>Entiendo que hablar de salud mental es m\u00e1s sencillo en nuestra lengua materna. Ofrezco consultas completamente biling\u00fces para que pueda expresarse con total confianza y claridad.</p>
+              <p className="font-playfair text-xl mb-2 font-bold text-sage">Atención en su idioma</p>
+              <p>Entiendo que hablar de salud mental es más sencillo en nuestra lengua materna. Ofrezco consultas completamente bilingües para que pueda expresarse con total confianza y claridad.</p>
             </div>
           </div>
           
           <div className="mt-2 p-6 md:p-8 bg-card rounded-xl shadow-sm border border-card">
             <h3 className="font-playfair text-[20px] md:text-[22px] font-bold text-charcoal mb-5">Credentials & Education</h3>
             <ul className="grid md:grid-cols-2 gap-4 font-lato text-[16px] md:text-[18px] text-charcoal-light">
-              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">\u2713</span> PMHNP-BC (ANCC Board Certified)</li>
-              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">\u2713</span> APRN, Florida Licensed (Autonomous Practice)</li>
-              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">\u2713</span> FL APRN License APRN11034892</li>
-              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">\u2713</span> MSN Psychiatry, Chamberlain University (2024)</li>
-              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">\u2713</span> 15+ Years Healthcare Experience</li>
-              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">\u2713</span> NPI 1790517449</li>
+              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">✓</span> PMHNP-BC (ANCC Board Certified)</li>
+              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">✓</span> APRN, Florida Licensed (Autonomous Practice)</li>
+              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">✓</span> FL APRN License APRN11034892</li>
+              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">✓</span> MSN Psychiatry, Chamberlain University (2024)</li>
+              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">✓</span> 15+ Years Healthcare Experience</li>
+              <li className="flex gap-3 items-start"><span className="text-sage font-bold mt-0.5" aria-hidden="true">✓</span> NPI 1790517449</li>
             </ul>
           </div>
         </div>
