@@ -40,4 +40,20 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.vercel
+# scratch / diagnostic scripts (never commit)
+*.bat
+diag*.py
+diag*.bat
+screenshot*.py
+verify_*.py
+check_*.py
+scrape_*.py
+
+# unbundled root images (binary assets belong in /public)
+/*.png
+/*.jpg
+/*.jpeg
+
+# Claude / AI scratchpads
+CLAUDE.md
+.claude/
