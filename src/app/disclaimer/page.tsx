@@ -8,7 +8,7 @@ export const metadata = {
 export default function Disclaimer() {
   return (
     <LegalPage title="Disclaimer">
-      <p className="mb-6"><strong>Effective Date:</strong> April 30, 2026</p>
+      <p className="mb-6"><strong>Effective Date:</strong> May 6, 2026</p>
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">No Medical Advice</h2>
       <p className="mb-6">
@@ -17,7 +17,7 @@ export default function Disclaimer() {
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">No Doctor-Patient Relationship</h2>
       <p className="mb-6">
-        Visiting this website, reading its content, sending an email, or leaving a voicemail does not create a doctor-patient, clinician-patient, or any other professional relationship between you and Premier Psychiatry of Wellington. A clinical relationship is established only after a scheduled evaluation and the signing of required consent forms.
+        Visiting this website, reading its content, or leaving a voicemail does not create a doctor-patient, clinician-patient, or any other professional relationship between you and Premier Psychiatry of Wellington. A clinical relationship is established only after a scheduled evaluation and the signing of required consent forms.
       </p>
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">Not for Emergencies</h2>
@@ -47,7 +47,7 @@ export default function Disclaimer() {
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">Contact</h2>
       <p className="mb-6">
-        Questions about this Disclaimer: (561) 834-5705 or aylin@premierpsychiatrywellington.com.
+        Questions about this Disclaimer: (561) 834-5705.
       </p>
     </LegalPage>
   );

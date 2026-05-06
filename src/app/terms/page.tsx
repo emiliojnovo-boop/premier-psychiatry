@@ -8,7 +8,7 @@ export const metadata = {
 export default function TermsOfUse() {
   return (
     <LegalPage title="Terms of Use">
-      <p className="mb-6"><strong>Effective Date:</strong> April 30, 2026</p>
+      <p className="mb-6"><strong>Effective Date:</strong> May 6, 2026</p>
 
       <p className="mb-6">
         These Terms of Use govern your use of the Premier Psychiatry of Wellington website. By using this website, you agree to these Terms. If you do not agree, please do not use this website.
@@ -61,7 +61,7 @@ export default function TermsOfUse() {
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">10. Contact</h2>
       <p className="mb-6">
-        Questions about these Terms: (561) 834-5705 or aylin@premierpsychiatrywellington.com.
+        Questions about these Terms: (561) 834-5705.
       </p>
     </LegalPage>
   );

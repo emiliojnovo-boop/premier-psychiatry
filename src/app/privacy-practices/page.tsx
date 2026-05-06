@@ -8,7 +8,7 @@ export const metadata = {
 export default function PrivacyPractices() {
   return (
     <LegalPage title="Notice of Privacy Practices">
-      <p className="mb-6"><strong>Effective Date:</strong> April 30, 2026</p>
+      <p className="mb-6"><strong>Effective Date:</strong> May 6, 2026</p>
 
       <p className="mb-6 font-bold uppercase tracking-wide">
         This notice describes how medical information about you may be used and disclosed and how you can get access to this information. Please review it carefully.
@@ -60,12 +60,12 @@ export default function PrivacyPractices() {
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">Complaints</h2>
       <p className="mb-6">
-        If you believe your privacy rights have been violated, you may file a complaint with us by calling (561) 834-5705 or emailing aylin@premierpsychiatrywellington.com. You may also file a written complaint with the U.S. Department of Health and Human Services, Office for Civil Rights, 200 Independence Avenue SW, Washington, DC 20201, or at https://www.hhs.gov/ocr/. You will not be retaliated against for filing a complaint.
+        If you believe your privacy rights have been violated, you may file a complaint with us by calling (561) 834-5705. You may also file a written complaint with the U.S. Department of Health and Human Services, Office for Civil Rights, 200 Independence Avenue SW, Washington, DC 20201, or at https://www.hhs.gov/ocr/. You will not be retaliated against for filing a complaint.
       </p>
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">Contact</h2>
       <p className="mb-6">
-        Privacy Officer, Premier Psychiatry of Wellington. Phone: (561) 834-5705. Email: aylin@premierpsychiatrywellington.com.
+        Privacy Officer, Premier Psychiatry of Wellington. Phone: (561) 834-5705.
       </p>
     </LegalPage>
   );

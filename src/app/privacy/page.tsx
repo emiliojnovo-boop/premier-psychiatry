@@ -8,7 +8,7 @@ export const metadata = {
 export default function PrivacyPolicy() {
   return (
     <LegalPage title="Privacy Policy">
-      <p className="mb-6"><strong>Effective Date:</strong> April 30, 2026</p>
+      <p className="mb-6"><strong>Effective Date:</strong> May 6, 2026</p>
 
       <p className="mb-6">
         Premier Psychiatry of Wellington ("we," "our," or "us") respects your privacy. This Privacy Policy explains what information this website collects, how it is used, and the choices you have. This policy applies only to information collected through this website. Information you share during clinical care is governed by the separate <a href="/privacy-practices" className="underline text-sage hover:text-teal">Notice of Privacy Practices</a> required by HIPAA.
@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">2. Information You Choose to Send Us Directly</h2>
       <p className="mb-6">
-        If you choose to call (561) 834-5705 or email aylin@premierpsychiatrywellington.com, the information you share is handled in accordance with our HIPAA Notice of Privacy Practices. Email is not a secure channel; please do not include sensitive health information in unencrypted email.
+        If you choose to call (561) 834-5705, the information you share is handled in accordance with our HIPAA Notice of Privacy Practices. Please do not send protected health information by unencrypted electronic means.
       </p>
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">3. Server Logs</h2>
@@ -56,7 +56,7 @@ export default function PrivacyPolicy() {
 
       <h2 className="font-playfair text-2xl font-bold text-charcoal mt-10 mb-4">9. Contact</h2>
       <p className="mb-6">
-        Questions about this Privacy Policy: (561) 834-5705 or aylin@premierpsychiatrywellington.com.
+        Questions about this Privacy Policy: (561) 834-5705.
       </p>
     </LegalPage>
   );
