@@ -110,9 +110,9 @@ const faqJsonLd = {
   ]
 };
 
-const jsonLdString = JSON.stringify(jsonLd);
-const physicianJsonLdString = JSON.stringify(physicianJsonLd);
-const faqJsonLdString = JSON.stringify(faqJsonLd);
+const medicalBusinessLdProps = { __html: JSON.stringify(jsonLd) };
+const physicianLdProps = { __html: JSON.stringify(physicianJsonLd) };
+const faqLdProps = { __html: JSON.stringify(faqJsonLd) };
 
 export default function RootLayout({
   children,
@@ -124,15 +124,15 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML= __html: jsonLdString 
+          dangerouslySetInnerHTML={medicalBusinessLdProps}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML= __html: physicianJsonLdString 
+          dangerouslySetInnerHTML={physicianLdProps}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML= __html: faqJsonLdString 
+          dangerouslySetInnerHTML={faqLdProps}
         />
       </head>
       <body className="font-lato bg-background text-charcoal pb-16 md:pb-0">
