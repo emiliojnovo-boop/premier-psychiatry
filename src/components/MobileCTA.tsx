@@ -35,13 +35,7 @@ export default function MobileCTA() {
           href="tel:5618345705"
           className="flex-1 bg-white text-charcoal text-center rounded-md font-bold shadow-sm focus:outline-none focus:ring-2 focus:ring-white flex items-center justify-center font-lato text-[16px]"
         >
-          Call
-        </a>
-        <a 
-          href="mailto:aylin@premierpsychiatrywellington.com"
-          className="flex-1 bg-charcoal text-white text-center rounded-md font-bold shadow-sm focus:outline-none focus:ring-2 focus:ring-charcoal flex items-center justify-center font-lato text-[16px]"
-        >
-          Email
+          Call (561) 834-5705
         </a>
       </div>
     </div>

@@ -23,10 +23,12 @@ export default function Hero() {
                 Call to Book — (561) 834-5705
               </a>
               <a 
-                href="mailto:aylin@premierpsychiatrywellington.com"
+                href="https://www.zocdoc.com/doctor/aylin-trujillo-aprn-rn-664547"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="border-2 border-sage text-charcoal text-center px-6 py-3 min-h-[44px] min-w-[44px] rounded font-bold hover:bg-sage transition-all transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-sage flex items-center justify-center bg-transparent mt-2 sm:mt-0 shadow-sm"
               >
-                Email for Free 15-Min Consult
+                Book on ZocDoc
               </a>
             </div>
           </div>

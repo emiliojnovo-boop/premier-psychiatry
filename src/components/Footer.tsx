@@ -18,15 +18,12 @@ export default function Footer() {
             <a href="tel:5618345705" className="font-lato text-[16px] md:text-[18px] text-white hover:text-apricot transition-colors min-h-[44px] flex items-center focus:outline-none focus:ring-2 focus:ring-sage rounded w-max">
               (561) 834-5705
             </a>
-            <a href="mailto:aylin@premierpsychiatrywellington.com" className="font-lato text-[16px] md:text-[18px] text-white hover:text-apricot transition-colors min-h-[44px] flex items-center focus:outline-none focus:ring-2 focus:ring-sage rounded w-max break-all">
-              aylin@premierpsychiatrywellington.com
-            </a>
           </div>
 
           <div className="lg:col-span-5 flex flex-col gap-6 text-sm font-lato text-white/60">
             <div className="flex flex-col gap-1">
               <p className="leading-relaxed">
-                Under the federal No Surprises Act, you have the right to receive a Good Faith Estimate of expected charges for self-pay or uninsured care. Contact (561) 834-5705 or <a href="mailto:aylin@premierpsychiatrywellington.com" className="underline hover:text-sage transition-colors">aylin@premierpsychiatrywellington.com</a> to request one. More info: <a href="https://www.cms.gov/nosurprises" target="_blank" rel="noopener noreferrer" className="underline hover:text-sage transition-colors">cms.gov/nosurprises</a>
+                Under the federal No Surprises Act, you have the right to receive a Good Faith Estimate of expected charges for self-pay or uninsured care. Call (561) 834-5705 to request one, or see our <a href="/good-faith-estimate" className="underline hover:text-sage transition-colors">Good Faith Estimate</a> page for details. More info: <a href="https://www.cms.gov/nosurprises" target="_blank" rel="noopener noreferrer" className="underline hover:text-sage transition-colors">cms.gov/nosurprises</a>
               </p>
             </div>
             
@@ -67,6 +64,12 @@ export default function Footer() {
             <a href="/disclaimer" className="hover:text-white transition-colors underline">Disclaimer</a>
             <span aria-hidden="true">|</span>
             <a href="/privacy-practices" className="hover:text-white transition-colors underline">Notice of Privacy Practices</a>
+            <span aria-hidden="true">|</span>
+            <a href="/good-faith-estimate" className="hover:text-white transition-colors underline">Good Faith Estimate</a>
+            <span aria-hidden="true">|</span>
+            <a href="/nondiscrimination" className="hover:text-white transition-colors underline">Nondiscrimination</a>
+            <span aria-hidden="true">|</span>
+            <a href="/accessibility" className="hover:text-white transition-colors underline">Accessibility</a>
           </div>
           <p>&copy; 2026 Premier Psychiatry of Wellington. All rights reserved.</p>
         </div>
